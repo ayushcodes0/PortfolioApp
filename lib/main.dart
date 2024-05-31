@@ -44,7 +44,7 @@ class Home extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(Icons.explore),
-              title: Text('Experience',style: TextStyle(color: Colors.black,fontFamily: 'Popping',fontWeight: FontWeight.w500),),
+              title: Text('Skills',style: TextStyle(color: Colors.black,fontFamily: 'Popping',fontWeight: FontWeight.w500),),
               onTap: ()=>{
                 Navigator.push(context, MaterialPageRoute(builder: (context) => Experience())),
               },
@@ -253,7 +253,7 @@ class Experience extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(Icons.explore),
-              title: Text('Experience',style: TextStyle(color: Colors.black,fontFamily: 'Popping',fontWeight: FontWeight.w500),),
+              title: Text('Skills',style: TextStyle(color: Colors.black,fontFamily: 'Popping',fontWeight: FontWeight.w500),),
               onTap: ()=>{
                 Navigator.push(context, MaterialPageRoute(builder: (context) => Experience())),
               },
@@ -283,7 +283,7 @@ class Experience extends StatelessWidget {
         ),
       ),
       appBar: AppBar(
-        title: Center(child: Text('EXPERIENCE',style: TextStyle(color: Color.fromARGB(255, 221,198,182),fontWeight: FontWeight.w500, fontFamily: 'Poppins' , fontSize: 20 , letterSpacing: 3),)),
+        title: Center(child: Text('SKILLS',style: TextStyle(color: Color.fromARGB(255, 221,198,182),fontWeight: FontWeight.w500, fontFamily: 'Poppins' , fontSize: 20 , letterSpacing: 3),)),
         backgroundColor: Color.fromARGB(255, 38,34,35),
         leading: 
         IconButton(icon: Icon(Icons.arrow_back_ios_new, color: Color.fromARGB(255, 221,198,182),), 
@@ -430,7 +430,7 @@ class HireMe extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(Icons.explore),
-              title: Text('Experience',style: TextStyle(color: Colors.black,fontFamily: 'Popping',fontWeight: FontWeight.w500),),
+              title: Text('Skills',style: TextStyle(color: Colors.black,fontFamily: 'Popping',fontWeight: FontWeight.w500),),
               onTap: ()=>{
                 Navigator.push(context, MaterialPageRoute(builder: (context) => Experience())),
               },
@@ -528,7 +528,7 @@ class Projects extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(Icons.explore),
-              title: Text('Experience',style: TextStyle(color: Colors.black,fontFamily: 'Popping',fontWeight: FontWeight.w500),),
+              title: Text('Skills',style: TextStyle(color: Colors.black,fontFamily: 'Popping',fontWeight: FontWeight.w500),),
               onTap: ()=>{
                 Navigator.push(context, MaterialPageRoute(builder: (context) => Experience())),
               },
@@ -579,28 +579,209 @@ class Projects extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.fromLTRB(8, 16, 8, 8),
               child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Color.fromARGB(255, 255, 255, 255),
+                  boxShadow: [
+                    BoxShadow(
+                      color: const Color.fromARGB(255, 68, 68, 68),
+                      blurRadius: 10,
+                      spreadRadius: 2,
+                      offset: Offset(4,4),
+                    ),
+                  ]
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(0, 4, 0, 4),
+                  child: ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
+                      child: Image.asset('assets/bookmyshow.jpg', 
+                      fit: BoxFit.cover
+                      ),
+                    ),
+
+                ),
                 height: 200,
-                color: Color.fromARGB(255, 221,198,182),
               ),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text('Book My Show Clone',style: TextStyle(color: Colors.black,fontFamily: 'Poppins',fontSize: 15),)
+              ],
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(8, 16, 8, 8),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Color.fromARGB(255, 38,34,35),
+                  boxShadow: [
+                    BoxShadow(
+                      color: const Color.fromARGB(255, 68, 68, 68),
+                      blurRadius: 10,
+                      spreadRadius: 2,
+                      offset: Offset(4,4),
+                    ),
+                  ]
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(0, 4, 0, 4),
+                  child: 
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
+                      child: Image.asset('assets/netflix.png', 
+                      fit: BoxFit.cover
+                      ),
+                    ),
+                ),
+                height: 200,
+              ),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text('Netflix Clone',style: TextStyle(color: Colors.black,fontFamily: 'Poppins',fontSize: 15),)
+              ],
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(8, 16, 8, 8),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Color.fromARGB(255, 255, 255, 255),
+                  boxShadow: [
+                    BoxShadow(
+                      color: const Color.fromARGB(255, 68, 68, 68),
+                      blurRadius: 10,
+                      spreadRadius: 2,
+                      offset: Offset(4,4),
+                    ),
+                  ]
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(0, 4, 0, 4),
+                  child: ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
+                      child: Image.asset('assets/ultraedit.jpg', 
+                      fit: BoxFit.cover
+                      ),
+                    ),
+
+                ),
+                height: 200,
+              ),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text('UltraEdit Clone',style: TextStyle(color: Colors.black,fontFamily: 'Poppins',fontSize: 15),)
+              ],
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(8, 16, 8, 8),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Color.fromARGB(255, 0, 0, 0),
+                  boxShadow: [
+                    BoxShadow(
+                      color: const Color.fromARGB(255, 68, 68, 68),
+                      blurRadius: 10,
+                      spreadRadius: 2,
+                      offset: Offset(4,4),
+                    ),
+                  ]
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(4, 4, 4, 4),
+                  child: 
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(0.0),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(10),
+                            child: Container(
+                              decoration: BoxDecoration(
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Color.fromARGB(255, 255, 255, 255),
+                                    blurRadius: 10,
+                                    spreadRadius: 2,
+                                    offset: Offset(4,4),
+                                  )
+                                ]
+                              ),
+                              child: Image.asset('assets/app1.jpg',
+                              fit: BoxFit.cover, 
+                              width: 80,
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(0.0),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(10),
+                            child: Container(
+                              decoration: BoxDecoration(
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Color.fromARGB(255, 255, 255, 255),
+                                    blurRadius: 10,
+                                    spreadRadius: 2,
+                                    offset: Offset(4,4),
+                                  )
+                                ]
+                              ),
+                              child: Image.asset('assets/app2.jpg',
+                              fit: BoxFit.cover, 
+                              width: 80,
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(0.0),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(10),
+                            child: Container(
+                              decoration: BoxDecoration(
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Color.fromARGB(255, 255, 255, 255),
+                                    blurRadius: 10,
+                                    spreadRadius: 2,
+                                    offset: Offset(4,4),
+                                  )
+                                ]
+                              ),
+                              child: Image.asset('assets/app3.jpg',
+                              fit: BoxFit.cover, 
+                              width: 80,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                ),
+                height: 200,
+                width: 340,
+              ),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text('Portfolio App',style: TextStyle(color: Colors.black,fontFamily: 'Poppins',fontSize: 15),)
+              ],
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
-                height: 200,
-                color: Color.fromARGB(255, 221,198,182),
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                height: 200,
-                color: Color.fromARGB(255, 221,198,182),
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                height: 200,
+                height: 80,
                 color: Color.fromARGB(255, 221,198,182),
               ),
             ),
