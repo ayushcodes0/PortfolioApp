@@ -520,7 +520,7 @@ class HireMe extends StatelessWidget {
         ),
       ),
       appBar: AppBar(
-        title: Center(child: Text('Hire Me',style: TextStyle(color: Color.fromARGB(255, 221,198,182),fontWeight: FontWeight.w500, fontFamily: 'Poppins' , fontSize: 20 , letterSpacing: 3),)),
+        title: Center(child: Text('HIRE ME',style: TextStyle(color: Color.fromARGB(255, 221,198,182),fontWeight: FontWeight.w500, fontFamily: 'Poppins' , fontSize: 20 , letterSpacing: 3),)),
         backgroundColor: Color.fromARGB(255, 38,34,35),
         leading: 
         IconButton(icon: Icon(Icons.arrow_back_ios_new, color: Color.fromARGB(255, 221,198,182),), 
@@ -763,7 +763,7 @@ class Projects extends StatelessWidget {
         ),
       ),
       appBar: AppBar(
-        title: Center(child: Text('Projects',style: TextStyle(color: Color.fromARGB(255, 221,198,182),fontWeight: FontWeight.w500, fontFamily: 'Poppins' , fontSize: 20 , letterSpacing: 3),)),
+        title: Center(child: Text('PROJECTS',style: TextStyle(color: Color.fromARGB(255, 221,198,182),fontWeight: FontWeight.w500, fontFamily: 'Poppins' , fontSize: 20 , letterSpacing: 3),)),
         backgroundColor: Color.fromARGB(255, 38,34,35),
         leading: 
         IconButton(icon: Icon(Icons.arrow_back_ios_new, color: Color.fromARGB(255, 221,198,182),), 
@@ -838,7 +838,7 @@ class Projects extends StatelessWidget {
                               padding: const EdgeInsets.all(8.0),
                               child: Icon(Icons.link),
                             ),
-                            Text('https://github.com/ayushcodes0/Book_My_Show',style: TextStyle(color: Colors.blue,fontFamily: 'Poppins',fontSize: 11),),
+                            Text('https://github.com/ayushcodes0/Book_My_Show',style: TextStyle(color: Colors.blue,fontFamily: 'Poppins',fontSize: 10),),
                           ],
                         ),
                       ),
@@ -895,7 +895,7 @@ class Projects extends StatelessWidget {
                               padding: const EdgeInsets.all(8.0),
                               child: Icon(Icons.link),
                             ),
-                            Text('https://github.com/ayushcodes0/Netflix_clone',style: TextStyle(color: Colors.blue,fontFamily: 'Poppins',fontSize: 11),),
+                            Text('https://github.com/ayushcodes0/Netflix_clone',style: TextStyle(color: Colors.blue,fontFamily: 'Poppins',fontSize: 10),),
                           ],
                         ),
                       ),
@@ -953,7 +953,7 @@ class Projects extends StatelessWidget {
                               padding: const EdgeInsets.all(8.0),
                               child: Icon(Icons.link),
                             ),
-                            Text('https://github.com/ayushcodes0/UltraEdit_Clone',style: TextStyle(color: Colors.blue,fontFamily: 'Poppins',fontSize: 11),),
+                            Text('https://github.com/ayushcodes0/UltraEdit_Clone',style: TextStyle(color: Colors.blue,fontFamily: 'Poppins',fontSize: 10),),
                           ],
                         ),
                       ),
